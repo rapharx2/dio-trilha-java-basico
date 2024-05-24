@@ -8,7 +8,7 @@ public class ContaTerminal {
     
         System.out.println("Por favor, digite o número da conta:");
         int numero = scanner.nextInt();
-        scanner.nextLine();  // Consumir a nova linha deixada pelo nextInt()
+        scanner.nextLine();  
 
         System.out.println("Por favor, digite o número da agência:");
         String agencia = scanner.nextLine();
